@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+body{
+    background-color: #eee;
+    /* font-size: 15px; */
+    color: #666;
+}
+.container{
+    
+    max-width: 800px;
+   margin: auto;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.right-lay{
+    background:linear-gradient(45deg,#3498DB,#1136C7);
+    color: whitesmoke;
+    border-radius: 20px;
+    position: relative;
+    padding: 25px;
+   height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.mycard{
+    position: relative;
+    background: #fff;
+    height: 100%;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 10px 40px -10px rgba(0,0,0,0.7);
+    -moz-box-shadow:0 10px 40px -10px rgba(0,0,0,0.7);
+    box-shadow: 0 10px 40px -10px rgba(0,0,0,0.7);
+}
+.row{
+    height: 100%;
+}
+.box{
+    position: relative;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+.box-text{
+    font-size: 30px;
+    font-weight: 700;
+}
+.box-p{
+    font-size: 17px;   
+}
+.btn-custom {
+    background: transparent;
+    border-radius: 20px;
+    
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    width: 180px;
+    border: 2px solid #fff !important;
+}
+.left-lay{
+    text-align: center !important;
+    position: relative;
+    background: #fff;
+    padding-left: 50px;
+    padding: 25px;
+    border-radius: 20px;
+}
+.login{
+    position: relative;
+    margin-top: 50px;
+}
+.left-h1{
+    font-size: 35px;
+    color: #3498DB;
+    font-weight: 500;
+}
+.form-control{
+    font-size: 15px;
+    width: 270px;
+    margin: auto;
+    border-radius: 20px !important;
+    padding: 12px !important;
+   padding-left: 30px;
+    border: none;
+    -webkit-box-shadow: 0 10px 40px -10px rgba(0,0,0,0.7);
+    -moz-box-shadow:0 10px 40px -10px rgba(0,0,0,0.7);
+    box-shadow: 0 10px 40px -10px rgba(0,0,0,0.7);
+}
+.form-control:active{
+    border: 0;
+    outline: none !important;
+}
+.form-control:focus{
+    border: 0;
+    outline: none !important;
+}
+.form-control:active:focus{
+    border: 0;
+    outline: none !important;
+}
+.form-control:hover{
+    border: 1px solid #3498DB;
+}
+.login a{
+    text-decoration: none;
+    color: #666;  
+}
+.login a:hover{
+    color:#3498DB;
+}
+.forgot-link{
+    font-size: 13px;
+}
+.btn-s{
+    width: 250px;
+    background: linear-gradient(45deg,#3498DB,#1136C7);
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px !important;
+    transition: 0.4s ease !important;
+}
+.btn-s:hover{
+    color: #3498DB;
+    border: 1px solid #1136C7;
+    background: transparent;
+    letter-spacing: 2px;
+}
